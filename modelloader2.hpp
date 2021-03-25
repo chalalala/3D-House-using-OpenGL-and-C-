@@ -3,8 +3,11 @@
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
+#include <string.h>
+#include <share.h>
+#include "shader.h"
 #include "modelloader.h"
-#include <string>
+using namespace std;
 
 class Model
 {
@@ -24,6 +27,22 @@ class Model
         Mesh processMesh(aiMesh *mesh, const aiScene *scene);
         vector<Texture> loadMaterialTextures(aiMaterial *mat, aiTextureType type,
                                              string typeName);
+};
+
+class Mesh {
+public:
+    // mesh data
+    vector<Vertex>       vertices;
+    vector<unsigned int> indices;
+    vector<Texture>      textures;
+
+    Mesh(vector<Vertex> vertices, vector<unsigned int> indices, vector<Texture> textures);
+    void Draw(Shader& shader);
+private:
+    //  render data
+    unsigned int VAO, VBO, EBO;
+
+    void setupMesh();
 };
 
 void Draw(Shader &shader)

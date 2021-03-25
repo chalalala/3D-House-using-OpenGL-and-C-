@@ -1,0 +1,94 @@
+﻿  imageloader.cpp
+C:\Users\neko_\Desktop\Github\New folder\3D House\imageloader.cpp(116,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\neko_\Desktop\Github\New folder\3D House\imageloader.cpp(117,2): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+E:\vcpkg\installed\x86-windows\include\assimp\material.inl(106,21): error C2589: '(': illegal token on right side of '::'
+E:\vcpkg\installed\x86-windows\include\assimp\material.inl(106,21): message : This diagnostic occurred in the compiler generated function 'aiReturn aiMaterial::Get(const char *,unsigned int,unsigned int,Type *,unsigned int *) const'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(22,15): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(22,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(22,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(27,14): error C3646: 'processMesh': unknown override specifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(27,25): error C2059: syntax error: '('
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(27,61): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(28,15): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(28,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(29,62): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(35,11): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(35,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(35,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(36,11): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(36,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(36,33): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(37,11): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(37,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(37,34): error C2238: unexpected token(s) preceding ';'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(39,10): error C2061: syntax error: identifier 'vector'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(50,33): error C2065: 'meshes': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(51,9): error C2065: 'meshes': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(64,5): error C2065: 'directory': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(66,5): error C3861: 'processNode': identifier not found
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(75,9): error C2065: 'meshes': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(75,26): error C3861: 'processMesh': identifier not found
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(86,5): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(86,12): error C2065: 'Vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(86,20): error C2065: 'vertices': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(87,5): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(87,12): error C2062: type 'unsigned int' unexpected
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(88,5): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(88,12): error C2065: 'Texture': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(88,21): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(92,9): error C2065: 'Vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(92,16): error C2146: syntax error: missing ';' before identifier 'vertex'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(92,16): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(94,9): error C2653: 'glm': is not a class or namespace name
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(94,14): error C2065: 'vec3': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(94,19): error C2146: syntax error: missing ';' before identifier 'vector'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(94,19): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(95,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(96,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(97,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(98,9): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(98,27): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(99,9): error C2065: 'vertices': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(99,28): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(101,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(102,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(103,9): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(104,9): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(104,25): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(108,14): error C2653: 'glm': is not a class or namespace name
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(108,19): error C2065: 'vec2': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(108,24): error C2146: syntax error: missing ';' before identifier 'vec'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(108,24): error C2065: 'vec': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(109,14): error C2065: 'vec': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(110,14): error C2065: 'vec': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(111,14): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(111,33): error C2065: 'vec': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(114,14): error C2065: 'vertex': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(114,33): error C2653: 'glm': is not a class or namespace name
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(114,38): error C3861: 'vec2': identifier not found
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(121,12): error C2065: 'indices': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(127,10): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(127,17): error C2065: 'Texture': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(127,26): error C2065: 'diffuseMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(127,40): error C3861: 'loadMaterialTextures': identifier not found
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(129,10): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(129,26): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(129,42): error C2065: 'diffuseMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(129,63): error C2065: 'diffuseMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(130,10): error C2065: 'vector': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(130,17): error C2065: 'Texture': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(130,26): error C2065: 'specularMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(130,41): error C3861: 'loadMaterialTextures': identifier not found
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(132,10): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(132,26): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(132,42): error C2065: 'specularMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(132,64): error C2065: 'specularMaps': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(135,17): error C2065: 'vertices': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(135,27): error C2065: 'indices': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(135,36): error C2065: 'textures': undeclared identifier
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(138,7): error C2143: syntax error: missing ';' before '<'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(138,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(139,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\neko_\Desktop\Github\New folder\3D House\modelloader2.hpp(139,1): error C2447: '{': missing function header (old-style formal list?)
+  Generating Code...
