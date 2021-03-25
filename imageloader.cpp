@@ -112,9 +112,9 @@ namespace {
 
 Image* loadBMP(const char* filename) {
 	ifstream input;
-	char src[100];
-	strcpy(src, "C:\\Users\\neko_\\Desktop\\Github\\3D-House-using-OpenGL-and-C-\\images\\");
-	strcat(src, filename);
+	char src[MAX_PATH];
+	strcpy_s(src, "C:\\Users\\neko_\\Desktop\\Github\\3D-House-using-OpenGL-and-C-\\images\\");
+	strcat_s(src, filename);
 	input.open(src, ifstream::binary);
 	assert(!input.fail() || !"Could not find file");
 	char buffer[2];

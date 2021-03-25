@@ -140,21 +140,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Object Include="Bernhardiner.obj" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="imageloader.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="imageloader.h" />
-    <ClInclude Include="modelloader2.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="models\source_attribution.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

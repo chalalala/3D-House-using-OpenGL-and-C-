@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="Bernhardiner.obj" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="imageloader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -29,18 +26,21 @@
     <ClInclude Include="imageloader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="modelloader2.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="models\source_attribution.txt" />
   </ItemGroup>
 </Project>
