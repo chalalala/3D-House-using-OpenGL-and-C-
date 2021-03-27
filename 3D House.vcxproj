@@ -87,7 +87,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\neko_\Desktop\Github\3D-House-using-OpenGL-and-C-\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -116,7 +116,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\neko_\Desktop\Github\3D-House-using-OpenGL-and-C-\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -144,12 +144,33 @@
   <ItemGroup>
     <ClCompile Include="imageloader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SOIL2\etc1_utils.c" />
+    <ClCompile Include="SOIL2\image_DXT.c" />
+    <ClCompile Include="SOIL2\image_helper.c" />
+    <ClCompile Include="SOIL2\SOIL2.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="imageloader.h" />
+    <ClInclude Include="SOIL2\etc1_utils.h" />
+    <ClInclude Include="SOIL2\image_DXT.h" />
+    <ClInclude Include="SOIL2\image_helper.h" />
+    <ClInclude Include="SOIL2\jo_jpeg.h" />
+    <ClInclude Include="SOIL2\pkm_helper.h" />
+    <ClInclude Include="SOIL2\pvr_helper.h" />
+    <ClInclude Include="SOIL2\SOIL2.h" />
+    <ClInclude Include="SOIL2\stbi_DDS.h" />
+    <ClInclude Include="SOIL2\stbi_DDS_c.h" />
+    <ClInclude Include="SOIL2\stbi_ext.h" />
+    <ClInclude Include="SOIL2\stbi_ext_c.h" />
+    <ClInclude Include="SOIL2\stbi_pkm.h" />
+    <ClInclude Include="SOIL2\stbi_pkm_c.h" />
+    <ClInclude Include="SOIL2\stbi_pvr.h" />
+    <ClInclude Include="SOIL2\stbi_pvr_c.h" />
+    <ClInclude Include="SOIL2\stb_image.h" />
+    <ClInclude Include="SOIL2\stb_image_write.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -157,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="models\source_attribution.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="models\dog\dog-texture.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

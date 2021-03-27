@@ -22,7 +22,7 @@ void renderScene(void) {
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_TEXTURE_2D);
-    Model dog("C:\\Users\\neko_\\Desktop\Github\\3D-House-using-OpenGL-and-C-\\models\\dog\\dog.obj");
+    Model dog("models/dog/dog.obj");
 
     // Sky
     glPushMatrix();

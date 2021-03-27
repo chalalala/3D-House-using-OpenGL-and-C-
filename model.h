@@ -18,7 +18,7 @@
 //#include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-#include "SOIL2.h"
+#include "./SOIL2/SOIL2.h"
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
@@ -151,6 +151,7 @@ private:
 
 GLint TextureFromFile( string filename, string directory ) {
     filename = directory + '/' + filename;
+    cout << filename;
     GLuint textureID;
     glGenTextures( 1, &textureID );
     

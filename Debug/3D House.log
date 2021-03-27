@@ -1,5 +1,5 @@
-﻿  main.cpp
-C:\Users\neko_\Desktop\Github\3D-House-using-OpenGL-and-C-\main.cpp(25,15): warning C4129: 'G': unrecognized character escape sequence
-main.obj : error LNK2019: unresolved external symbol _SOIL_load_image referenced in function "int __cdecl TextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
-main.obj : error LNK2019: unresolved external symbol _SOIL_free_image_data referenced in function "int __cdecl TextureFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?TextureFromFile@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
-C:\Users\neko_\Desktop\Github\3D-House-using-OpenGL-and-C-\Debug\3D House.exe : fatal error LNK1120: 2 unresolved externals
+﻿  etc1_utils.c
+  image_DXT.c
+  image_helper.c
+  Generating Code...
+  3D House.vcxproj -> C:\Users\neko_\Desktop\Github\3D-House-using-OpenGL-and-C-\Debug\3D House.exe
