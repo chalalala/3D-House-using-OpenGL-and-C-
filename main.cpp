@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <windows.h>
+#include "model.h"
 #include <GL/glut.h>
 #include "imageloader.h"
-#include "model.h"
 
 float _angle = 0.0;
 GLuint _textureBrick, _textureDoor, _textureGrass, _textureRoof, _textureWindow, _textureSky, _textureChimney, _textureSand, _textureSnow, _textureWood;
@@ -22,7 +22,7 @@ void renderScene(void) {
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_TEXTURE_2D);
-    Model("C:\\Users\\neko_\\Desktop\Github\\3D-House-using-OpenGL-and-C-\\backpack.mtl");
+    Model dog("C:\\Users\\neko_\\Desktop\Github\\3D-House-using-OpenGL-and-C-\\models\\dog.obj");
 
     // Sky
     glPushMatrix();
