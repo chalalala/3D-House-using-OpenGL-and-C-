@@ -27,7 +27,7 @@
 
 using namespace std;
 
-GLint TextureFromFile( const char *path, string directory );
+GLint TextureFromFile(string filename, string directory );
 
 class Model {
 public:
@@ -149,8 +149,7 @@ private:
     }
 };
 
-GLint TextureFromFile( const char *path, string directory ) {
-    string filename = string( path );
+GLint TextureFromFile( string filename, string directory ) {
     filename = directory + '/' + filename;
     GLuint textureID;
     glGenTextures( 1, &textureID );
