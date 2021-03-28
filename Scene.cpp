@@ -95,6 +95,7 @@ Scene::Scene(int argc, char** argv) {
    this->horse = new ObjectGL("horse01.obj", -1.0, -1.5f, 2.0, 0.4f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), 180);
    this->trees = new ObjectGL("trees.obj", 0.0, -1.5f, -4.0, 1.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), 30);
    this->tree_stump = new ObjectGL("tree_stump.obj", 1.0, -1.5f, 3.0, 0.1f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0));
+   this->moon = new ObjectGL("moon.obj", 2.5, 1.8f, 3.0, 0.2f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0));
    this->flashlight = new Light(GL_LIGHT0, 0, 8, 0, "Flashlight.obj", 0.2f);
 	this->flashlight->towardVector = glm::vec3(0, 0, 1);
 
