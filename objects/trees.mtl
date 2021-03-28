@@ -1,0 +1,58 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl branches
+Ns 287.999996
+Ka 0.930000 0.930000 0.930000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\branch1Normal.png
+map_Kd -o 0.000000 -1.000000 0.000000 C:\\Users\\neko_\\Desktop\\trees\\textures\\tree1COlor.png
+map_Ks -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\branch1Specular.png
+refl -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\branch1Specular.png
+
+newmtl tree1
+Ns 287.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree1Normal.png
+map_Kd -o 0.000000 -1.000000 0.000000 C:\\Users\\neko_\\Desktop\\trees\\textures\\tree1COlor.png
+map_Ks -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree1Specular.png
+refl -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree1Specular.png
+
+newmtl tree2
+Ns 287.999996
+Ka 0.920000 0.920000 0.920000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree2Normal.png
+map_Kd -o 0.000000 -1.000000 0.000000 C:\\Users\\neko_\\Desktop\\trees\\textures\\tree2Color.png
+map_Ks -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree2Specular.png
+refl -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree2Specular.png
+
+newmtl tree3
+Ns 287.999996
+Ka 0.960000 0.960000 0.960000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree3Normal.png
+map_Kd -o 0.000000 -1.000000 0.000000 C:\\Users\\neko_\\Desktop\\trees\\textures\\tree3Color.png
+map_Ks -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree3Specular.png
+refl -o 0.000000 -1.000000 0.000000 I:\\Projects\\WildWest\\art\\environment\\tex\\tree3Specular.png

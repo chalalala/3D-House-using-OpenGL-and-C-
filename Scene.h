@@ -53,7 +53,10 @@ class Scene
 private:
 	Dog* dog;
 	ObjectGL* horse;
-    Light* flashlight;
+	ObjectGL* trees;
+	ObjectGL* tree_stump;
+	ObjectGL* moon;
+   Light* flashlight;
 	static Scene* currentInstance; // trick that helps to add opengl callbacks in class
 	void display_menu(); // display the menu (base on imgui)
 public:
