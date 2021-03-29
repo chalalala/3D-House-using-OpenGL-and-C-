@@ -21,3 +21,6 @@
 ### References
 - 3D House: https://github.com/mdrkb/3D-House-using-OpenGL-and-C-
 - Dog Model: https://github.com/maayankestler/DogGL
+
+## Demo
+![video](https://media4.giphy.com/media/8FnWOuZL8yLzvRRrcD/giphy.gif)
