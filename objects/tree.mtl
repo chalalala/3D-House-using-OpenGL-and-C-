@@ -1,25 +1,22 @@
 # Blender MTL File: 'None'
 # Material Count: 2
 
-newmtl phong1
-Ns 179.999996
-Ka 0.500000 0.500000 0.500000
-Kd 0.500000 0.500000 0.500000
-Ks 1.000000 1.000000 1.000000
+newmtl Material_#47
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.044602 0.266761 0.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
-Ni 1.450000
+Ni 1.000000
 d 1.000000
-illum 3
-map_Kd C:\\Users\\neko_\\Desktop\\tree\\textures\\treebase_phong4_BaseColor.png
+illum 1
 
-newmtl phong2
-Ns 179.999996
-Ka 0.500000 0.500000 0.500000
-Kd 1.000000 1.000000 1.000000
-Ks 1.000000 1.000000 1.000000
+newmtl Material_#48
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.114934 0.024940 0.000000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
-Ni 1.450000
+Ni 1.000000
 d 1.000000
-illum 3
-map_Kd C:\\Users\\neko_\\Desktop\\tree\\textures\\darkeragain.png
-map_d C:\\Users\\neko_\\Desktop\\tree\\TREE;EAF.png
+illum 1
