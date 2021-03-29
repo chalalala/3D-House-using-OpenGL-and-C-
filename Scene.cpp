@@ -3,7 +3,8 @@
 
 Scene* currentInstance;
 float _angle = 0.0;
-GLuint _textureBrick, _textureDoor, _textureGrass, _textureRoof, _textureWindow, _textureSky, _textureChimney, _textureSand, _textureSnow, _textureWood;
+GLdouble zoom = 0.0f;
+GLuint _textureBrick, _textureDoor, _textureGrass, _textureRoof, _textureWindow, _textureSky, _textureChimney, _textureSand, _textureSnow, _textureWood, _textureMoon;
 
 void displaycallback()
 {
@@ -55,7 +56,10 @@ void Initialize() {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
+   GLdouble ortho = 250 + zoom;
+   glOrtho(-ortho, ortho, -ortho, ortho, -250, 250);
+
+//	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 
 	Image* image = loadBMP("bricks.bmp");
 	_textureBrick = loadTexture(image);
@@ -77,6 +81,8 @@ void Initialize() {
 	_textureSnow = loadTexture(image);
    image = loadBMP("wood.bmp");
 	_textureWood = loadTexture(image);
+   image = loadBMP("moon.bmp");
+	_textureMoon = loadTexture(image);
 	delete image;
 
 }
@@ -94,6 +100,11 @@ Scene::Scene(int argc, char** argv) {
 	// create drawing objects
 	this->dog = new Dog("GermanShephardLowPoly.obj", 0, -1.5f, 1.5, 0.05f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0),30);
    this->horse = new ObjectGL("horse01.obj", -1.0, -1.5f, 2.0, 0.4f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), 180);
+   for (int i=0; i<5; i++){
+       this->tree[i] = new ObjectGL("tree.obj", -4.0+2.0*i, 2.0f, -3.0, 2.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0));
+   }
+   this->sled = new ObjectGL("sled.obj", -2.0, -1.2f, 3.0, 0.1f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), -90);
+   this->snowman = new ObjectGL("snowman.obj", 2.0, -1.2f, 2.5, 4.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), -30);
    this->flashlight = new Light(GL_LIGHT0, 0, 8, 0, "Flashlight.obj", 0.2f);
 	this->flashlight->towardVector = glm::vec3(0, 0, 1);
 
@@ -145,6 +156,22 @@ void Scene::display() {
             glTexCoord3f(0.0,0.0,0.1);  glVertex3f(-20,-20,0);
         glEnd();
     glPopMatrix();
+
+   // Moon
+   glPushMatrix();
+      glBindTexture(GL_TEXTURE_2D, _textureSnow);
+      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+      glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+      glTranslatef(0,0,-6);
+      glRotatef(_angle, 0.0, 1.0, 1.0);
+
+      glBegin(GL_TRIANGLE_FAN);
+        glVertex3f(4.0, 3.0, -4.0); // Center
+        for(int i = 0.0f; i <= 360; i++)
+                glVertex3f(0.5*cos(3.1416 * i / 180.0) + 4.0, 0.5*sin(3.1416 * i / 180.0) + 3.0, -4.0);
+
+        glEnd();
+   glPopMatrix();
 
 	// Snow
     glPushMatrix();
@@ -233,7 +260,7 @@ void Scene::display() {
         glEnd();
     glPopMatrix();
 
-        // Back side
+    // Back side
     glPushMatrix();
         glEnable(GL_TEXTURE_2D);
         glBindTexture(GL_TEXTURE_2D, _textureWood);
@@ -374,6 +401,11 @@ void Scene::display() {
       glRotatef(_angle, 0.0, 1.0, 0.0);
       dog->draw();
       horse->draw();
+      for (int i=0; i<5; i++){
+         tree[i]->draw();
+      }
+      sled->draw();
+      snowman->draw();
     glDisable(GL_LIGHTING);
 //
     glEnable(GL_LIGHT0); //Enable light #0
