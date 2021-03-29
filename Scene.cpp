@@ -3,6 +3,7 @@
 
 Scene* currentInstance;
 float _angle = 0.0;
+GLdouble zoom = 0.0f;
 GLuint _textureBrick, _textureDoor, _textureGrass, _textureRoof, _textureWindow, _textureSky, _textureChimney, _textureSand, _textureSnow, _textureWood, _textureMoon;
 
 void displaycallback()
@@ -55,7 +56,10 @@ void Initialize() {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
+   GLdouble ortho = 250 + zoom;
+   glOrtho(-ortho, ortho, -ortho, ortho, -250, 250);
+
+//	glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 
 	Image* image = loadBMP("bricks.bmp");
 	_textureBrick = loadTexture(image);
@@ -97,7 +101,7 @@ Scene::Scene(int argc, char** argv) {
 	this->dog = new Dog("GermanShephardLowPoly.obj", 0, -1.5f, 1.5, 0.05f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0),30);
    this->horse = new ObjectGL("horse01.obj", -1.0, -1.5f, 2.0, 0.4f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), 180);
    for (int i=0; i<5; i++){
-       this->tree[i] = new ObjectGL("tree.obj", -4.0+2.0*i, -1.5f, -3.0, 3.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0));
+       this->tree[i] = new ObjectGL("tree.obj", -4.0+2.0*i, 2.0f, -3.0, 2.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0));
    }
    this->sled = new ObjectGL("sled.obj", -2.0, -1.2f, 3.0, 0.1f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), -90);
    this->snowman = new ObjectGL("snowman.obj", 2.0, -1.2f, 2.5, 4.0f, glm::vec3(0, 1, 0), glm::vec3(-1, 0, 0), -30);
