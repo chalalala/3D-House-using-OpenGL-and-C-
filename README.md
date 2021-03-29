@@ -13,9 +13,9 @@
 
 ## Credits
 ### Models
-"Horse 01" (https://skfb.ly/69Bwy) by VitSh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-"Tree" (https://skfb.ly/6RQCY) by KyleTuckerW is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-"Day 19 - Sled" (https://skfb.ly/6FrOC) by Lilly! is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"Horse 01" (https://skfb.ly/69Bwy) by VitSh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>
+"Tree" (https://skfb.ly/6RQCY) by KyleTuckerW is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>
+"Day 19 - Sled" (https://skfb.ly/6FrOC) by Lilly! is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).<br>
 "Polygon Snowman" (https://skfb.ly/69yDZ) by MerryLeo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 ### References
